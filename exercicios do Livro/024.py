@@ -25,5 +25,5 @@ elif tipo_veiculo == 3:
         print(f'O IPVA desse veiculo é $ {IPVA:.2f}')
 else:
     print('Digite uma opção valida.')
-    print('yes!')
+
 
