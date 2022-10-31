@@ -1,0 +1,28 @@
+algoritmo "semnome"
+var
+   Al, melhoraluno : caractere
+   cont, q: Inteiro
+   nota, maior: Real
+inicio
+      maior <- 0
+      Escreval("-------------------")
+      Escreva(" Quantos alunos ? ")
+      Leia(q)
+      Escreval("--------------------")
+      Enquanto cont < q faca
+               cont <- cont +1
+               Escreval(" Aluno 1 ")
+               Escreva(" Nome do aluno: ")
+               Leia(Al)
+               Escreva(" Nota de ", Al, " : ")
+               Leia(nota)
+               Escreval("--------------------")
+      FimEnquanto
+      Se nota > maior entao
+         maior <- nota
+         melhoraluno <- Al
+         Escreval(" O melhor aluno foi: ", Al, " nota :", maior)
+      FimSe
+
+// Seção de Comandos 
+fimalgoritmo

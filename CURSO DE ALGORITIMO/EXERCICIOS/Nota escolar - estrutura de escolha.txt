@@ -1,0 +1,45 @@
+algoritmo "escola nota"
+// Função :
+// Autor :
+// Data : 08/05/2022
+// Seção de Declarações
+var
+   N1, N2, media: Real
+   OP: Inteiro
+   valor: caractere
+inicio
+      Escreval("------------------------------")
+      Escreval(" Nota  Escolar ")
+      Escreval("------------------------------")
+      Escreva(" Primeira nota: ")
+      Leia(N1)
+      Escreva(" Segunda Nota: ")
+      Leia(N2)
+      Escreval("------------------------------")
+      media <- (N1 + N2) / 2)
+      Escreval(" Media ", media)
+      Escreval(" Se sua nota esta entre 9 e 10 digite: [1] ")
+      Escreval(" Se sua nota esta entre 8 e 9 digite:  [2] ")
+      Escreval(" Se sua nota esta entre 7 e 8 digite:  [3] ")
+      Escreval(" Se sua nota esta entre 6 e 7 digite:  [4] ")
+      Escreval(" Se sua nota esta entre 5 e 6 digite:  [5] ")
+      Escreval(" Se sua nota esta abaixode 5 digite:   [6] ")
+      Leia(OP)
+      Escolha(OP)
+             caso 1
+                 valor <- "A"
+             caso 2
+                 valor <- "B"
+             caso 3
+                 valor <- "C"
+             caso 4
+                 valor <- "D"
+             caso 5
+                 valor <- "E"
+             caso 6
+                 valor <- "F"
+      FimEscolha
+      Escreval("------------------------------")
+      Escreval(" Seu aproveitamento é: ", valor)
+      Escreval("------------------------------")
+fimalgoritmo

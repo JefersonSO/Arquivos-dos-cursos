@@ -1,0 +1,22 @@
+algoritmo "contador negativo"
+
+var
+   n, cont, totn: Inteiro
+   
+   
+
+inicio
+   cont <- 1
+   totn <- 0
+   Repita
+      Escreva(" Digite um numero: ")
+      Leia(n)
+      Se n < 0 entao
+         totn <- totn +1
+      FimSe
+      cont <- cont +1
+
+   Ate cont > 5
+   Escreval("total de numeros negativos", totn)
+// Seção de Comandos 
+fimalgoritmo

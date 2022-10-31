@@ -1,0 +1,25 @@
+algoritmo "MEDIA"
+// Função : ler a media de duas notas do aluno
+// Autor :
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   N1, N2, media: Real
+inicio
+      Escreva(" Pimeira nota: ")
+      Leia(N1)
+      Escreva(" Segunda nota: ")
+      Leia(N2)
+      media <- (N1 + N2) / 2
+      Escreval(" A média de ", N1, " e ", N2, " é ", media)
+      se (media >= 7.0) entao
+         Escreva(" ALUNO APROVADO ")
+      senao
+         se (media <= 5) e (media < 7) entao
+            Escreva (" Aluno em recuperaçao ")
+         senao
+            Escreva(" Aluno reprovado ")
+         FimSe
+      FimSe
+// Seção de Comandos 
+fimalgoritmo

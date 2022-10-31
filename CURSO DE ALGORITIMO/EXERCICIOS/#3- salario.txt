@@ -1,0 +1,11 @@
+algoritmo "Salario"
+var
+   Nome: caractere
+   Salario: Real
+inicio
+      Escreva("Qual é o seu nome? ")
+      Leia(Nome)
+      Escreval ("Qua é o seu salario? ")
+      Leia (Salario)
+      Escreva("O funcionario ", Nome, "tem um salrio de ", Salario, " no mês de Junho")
+fimalgoritmo

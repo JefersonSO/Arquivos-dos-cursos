@@ -1,0 +1,33 @@
+algoritmo "partida de futebol"
+// Função :
+// Autor :
+// Data : 08/05/2022
+// Seção de Declarações 
+var
+   Gban, Gmad, dif: Inteiro
+   status: caractere
+
+
+inicio
+   Escreval("----------------------")
+   Escreval("  Bangu X Madureira  ")
+   Escreval("----------------------")
+   Escreval(" Quantos gols fez o Bangu?: ")
+   Leia(Gban)
+   Escreval(" Quantos gols fez o Madureira?: ")
+   Leia(Gmad)
+   dif <- (Gban - Gmad)
+   se (dif >= 1) e (dif <= 2) ou (dif > -3) e (dif <= -1) entao
+      status <- " Normal "
+   senao
+        se (dif = 0) entao
+           status <- " Empate "
+        senao
+             status <- " Goleada "
+        FimSe
+   FimSe
+   Escreval("----------------------")
+   Escreval("  STATUS DA PARTIDA:  ", status)
+   Escreval("----------------------")
+// Seção de Comandos 
+fimalgoritmo

@@ -1,0 +1,8 @@
+d = input('Digite algo:')
+print(type(d))
+print('\033[1;44mÈ numeico? ', '      ', d.isnumeric(), '\033[m')
+print('\033[1;44mÈ alfabetico?', '     ', d.isalpha(), '\033[m')
+print('\033[1;44mÈ alfanumerico?', '   ', d.isalnum(), '\033[m')
+print('\033[1;44mSó tem maiusculas?', d.isupper(),'\033[m')
+print('\033[1;44mSó tem minuscula?', ' ', d.islower(), '\033[m')
+print('\033[1;44mÈ espaço?', '        ', d.isspace(),'\033[m')

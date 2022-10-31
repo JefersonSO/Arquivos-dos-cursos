@@ -1,0 +1,13 @@
+algoritmo "QUAL O SEU NOME"
+// Função : pedir o nome e dar boas vindas
+// Autor :  jef
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   Nome: caractere
+   inicio
+         Escreva("Qual é o deu nome? ")
+         Leia(Nome)
+         Escreva("Seja bem vindo ", Nome, ", é um prazer em te conhecer!")
+// Seção de Comandos 
+fimalgoritmo

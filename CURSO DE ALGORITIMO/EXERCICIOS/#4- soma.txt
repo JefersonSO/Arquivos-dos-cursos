@@ -1,0 +1,15 @@
+algoritmo "SOMA"
+// Função : soma de dois valores
+// Autor :
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   Num1, Num2: Real
+inicio
+      Escreva("Digite um valor: ")
+      Leia(Num1)
+      Escreva("Digite outro numero: ")
+      Leia(Num2)
+      Escreva (Num1, " mais ", Num2, " é igual a: ", Num1 + Num2)
+// Seção de Comandos 
+fimalgoritmo

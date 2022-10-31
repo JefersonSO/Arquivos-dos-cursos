@@ -1,0 +1,32 @@
+algoritmo "Escola melhor aluno"
+Var
+ maior, Q, N, cont: Inteiro
+ Al, melhor: caractere
+inicio
+      Escreval("-------------------")
+      Escreval("ESCOLA M A")
+      Escreval("-------------------")
+      Escreva("Quantos aluno ?: ")
+      Leia(Q)
+      Escreval("-------------------")
+      maior <- 0
+      Enquanto cont < Q faca
+           Escreval("Nome do aluno: ")
+           Leia(Al)
+           Escreva("Nota: ")
+           Leia(N)
+           Escreval("-------------------")
+           cont <- cont + 1
+           Se N > maior entao
+             maior <- N
+             melhor <- Al
+           FimSe
+      FimEnquanto
+     Escreval(" O melhor aluno foi: ", melhor," com a nota", maior)
+
+
+
+
+
+      
+fimalgoritmo

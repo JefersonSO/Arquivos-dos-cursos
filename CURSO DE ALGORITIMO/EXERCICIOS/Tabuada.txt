@@ -1,0 +1,16 @@
+algoritmo "Somador"
+
+var
+  cont, n:Inteiro
+Inicio
+   cont <- 0
+   n <- 0
+   Escreva(" Qual numero: ")
+   Leia(n)
+   Repita
+     cont <- cont +1
+     Escreval(n, "X", cont, "=", n * cont )
+     
+   Ate cont = 10
+  
+fimalgoritmo

@@ -1,0 +1,30 @@
+algoritmo "somador numerico"
+Var
+   fim, cont, ini: Inteiro
+
+Inicio
+      Escreva("------------------------")
+      Escreval(" CONTAGEM INTELIGENTE ")
+      Escreval("------------------------")
+      Escreval(" Inicio: ")
+      Leia(ini)
+      Escreval(" Fim: ")
+      Leia(fim)
+
+      Se fim > ini entao
+         cont <- ini
+         Enquanto cont <= fim faca
+            Escreval(cont, "...")
+            cont <- cont + 1
+            FimEnquanto
+      senao
+         cont <- ini
+         Enquanto  (cont >= fim) faca
+            Escreval(cont, "...")
+         
+         cont <- cont - 1
+         FimEnquanto
+      FimSe
+
+
+Fimalgoritmo

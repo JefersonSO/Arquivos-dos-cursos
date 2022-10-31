@@ -1,0 +1,16 @@
+algoritmo " O DOBRO E O TRIPLO "
+// Função :
+// Autor :
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   Num: Real
+
+
+inicio
+      Escreva(" Digite um numero: ")
+      Leia(Num)
+      Escreva(" O dobro de ", Num, " é ", Num*2)
+      Escreva(" A terceira parte é ", Num/3)
+// Seção de Comandos 
+fimalgoritmo

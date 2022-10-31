@@ -1,0 +1,25 @@
+algoritmo "APTO A DIRIGIR"
+
+var
+   Idade, Aatual, Anas: Real
+inicio
+     Escreval("--------------------")
+     Escreval(" Escola de transito ")
+     Escreval("--------------------")
+     Escreva(" Ano atual (yyyy): ")
+     Leia(Aatual)
+     Escreva(" Ano de nascimento (yyyy): " )
+     Leia(Anas)
+     Idade <- (Aatual - Anas)
+     Escreval("-----STATUS-----" )
+     Se Idade >= 18 entao
+        Escreval(" Idade: ", Idade)
+        Escreval(" Apto a dirigir" )
+        Escreva("-----------------")
+     senao
+        Escreval("Idade: ", Idade)
+        Escreval("Inapto a dirigir ")
+     FimSe
+     
+// Seção de Comandos 
+fimalgoritmo

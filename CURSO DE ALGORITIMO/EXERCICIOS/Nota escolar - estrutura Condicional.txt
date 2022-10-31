@@ -1,0 +1,44 @@
+algoritmo "escola nota"
+// Função :
+// Autor :
+// Data : 08/05/2022
+// Seção de Declarações 
+var
+   N1, N2, media: Real
+inicio
+      Escreval("------------------------------")
+      Escreval(" Nota  Escolar ")
+      Escreval("------------------------------")
+      Escreva(" Primeira nota: ")
+      Leia(N1)
+      Escreva(" Segunda Nota: ")
+      Leia(N2)
+      Escreval("------------------------------")
+      media <- (N1 + N2) / 2)
+      Escreval(" Media ", media)
+      se (media >= 9) e (media <= 10)  entao
+         Escreva(" APROVEITAMENTO: A ")
+      senao
+           se (media >= 8) e (media < 9) entao
+              Escreva(" APROVEITAMENTO: B ")
+           senao
+                se (media >= 7) e (media < 8) entao
+                   Escreva(" APROVEITAMENTO: C ")
+                senao
+                     se (media >= 6) e (media < 7) entao
+                        Escreva(" APROVEITAMENTO: D ")
+                     senao
+                          se (media >= 5) e  (media <6) entao
+                             Escreva(" APROVEITAMENTO: E ")
+                          senao
+                               Escreva(" APROVEITAMENTO: F ")
+                          FimSe
+                     FimSe
+                FimSe
+                
+           FimSe
+      FimSe
+      
+      
+// Seção de Comandos 
+fimalgoritmo

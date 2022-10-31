@@ -1,0 +1,21 @@
+algoritmo "numeroprimo"
+
+var
+  cont, n, contdiv: Inteiro
+  
+
+inicio
+   Escreva("Digite um numero: ")
+   Leia(n)
+   cont <- 1
+   contdiv <- 0
+   Repita
+       escreva(cont)
+       Se (cont % n = 0) entao
+          contdiv <- contdiv + 1
+       FimSe
+       cont <- cont + 1
+   Ate cont > n
+   Escreval(" Ao todo existem ", contdiv, "valores divisiveis")
+   
+fimalgoritmo

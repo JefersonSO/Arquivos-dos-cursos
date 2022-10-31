@@ -1,0 +1,14 @@
+algoritmo "ANTECESSOR E SUCESSOR"
+// Função :
+// Autor :
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   Num: Inteiro
+inicio
+      Escreva("Digite um numero: ")
+      Leia(Num)
+      Escreval(" O antecessor de ", Num, " é ", Num-1)
+      Escreva(" O sucessor de ",Num," é ", Num+1)
+// Seção de Comandos 
+fimalgoritmo

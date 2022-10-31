@@ -1,0 +1,8 @@
+Algoritmo "OLA MUNDO"
+Var
+Inicio
+      Escreva("Olá, Mundo! ")
+Fimalgoritmo
+
+   
+

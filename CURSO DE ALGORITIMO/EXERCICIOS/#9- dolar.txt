@@ -1,0 +1,13 @@
+algoritmo "COMPRAR DOLAR"
+// Função :
+// Autor :
+// Data : 07/05/2022
+// Seção de Declarações 
+var
+   Reais: Real
+inicio
+      Escreva(" Quantidade de dinheiro na carteira: ")
+      Leia(Reais)
+      Escreva(" Com ", Reais, "R$ voce pode comprar ", Reais / 3.27, " Dolares" )
+// Seção de Comandos 
+fimalgoritmo
