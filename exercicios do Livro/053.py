@@ -6,3 +6,9 @@ print('Multiplos de 2 no intervalo entre 1 e 100...')
 for c in range(1, 101):
     if c * 2 >= 1 and c * 2 <= 101:
        print(c, end=',')
+
+print()
+print('Multiplos de 3 no intervalo entre 1 e 100...')
+for c in range(1, 101):
+    if c * 3 >= 1 and c * 3 <= 101:
+       print(c, end=',')
