@@ -1,31 +1,29 @@
-'''Dada uma matriz real A[4x3], verificar se existem elementos repetidos em A.'''
+''' Dada uma matriz real A[4x3], verificar se existem elementos repetidos em A. '''
+
 #Criando a matriz
 from random import randint
 A = list()
 B = list()
 for l in range(0,4):
     for c in range(0,3):
-       B.append(randint(0,25))
+       B.append(randint(0,100))
     A.append(B[:])
     B.clear()
-
 #imprimindo ela
 for v in A:
     print(v)
     for c in v:
         B.append(c)
-
 #Verificando se a numeros repetidos
 repetidos = list ()
 for v in A:
       for c in v:
        if B.count(c) > 1:
-           if c in repetidos:
-               continue
+           if c not in repetidos:
+               repetidos.append(c)
            else:
-              repetidos.append(c)
-
-
+               continue
+#Imprimindo o resultado
 if len(repetidos) > 0:
     print(f'Há numeros repetidos em A ({len(repetidos)}). ',end='')
     for c in repetidos: print(f'O nº{c} se repete {repetidos.count(c)}x ',end='')
