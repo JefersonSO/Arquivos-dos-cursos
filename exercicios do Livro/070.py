@@ -18,21 +18,30 @@ for linha in range(0,3):
        jogo.append(posicoes[:])
        posicoes.clear()
 posicoes.clear()
-#Imprimindo o vetor
-print()
-for l in jogo:
-     for c in l:
-         if c % 2 == 0:
-             print('x', end='  ')
-         else:
-             print('O', end='  ')
-
-         if c == l[0] or c == l[1]:
-              print('│',end='  ')
-         if c == 3 or c  == 6:
-            print()
-            print('-'*15)
-
-
+cont = 0
+print('O primeiro a jogar é o "X".')
+while True:
+    print(jogo)
+    #Imprimindo o vetor
+    print()
+    for l in jogo:
+         for c, v in enumerate(l):
+             print(v, end='  ')
+             if c == 0 or c == 1:
+                  print('│',end='  ')
+             if c == 2:
+                print()
+                print('-'*13)
+    cont += 1
+    esc = int(input(f'vez do jogador {cont} na posiçao :'))
+    if cont == 2:
+        cont = 0
+    for l in range(0,3):
+        for c in range(0,3):
+            if jogo[l][c] == esc:
+                if cont == 1:
+                   jogo[l][c] = '\033[0;34mX\033[m'
+                else:
+                    jogo[l][c] = '\033[0;31mO\033[m'
 
 
