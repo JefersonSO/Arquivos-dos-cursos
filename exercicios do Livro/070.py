@@ -43,5 +43,7 @@ while True:
                    jogo[l][c] = '\033[0;34mX\033[m'
                 else:
                     jogo[l][c] = '\033[0;31mO\033[m'
-
+    if jogo[2][0] == jogo[1][1] == jogo[0][2]:
+        print('Fim')
+        break
 
